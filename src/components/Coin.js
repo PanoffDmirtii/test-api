@@ -34,7 +34,7 @@ const Coin = (props) => {
   }
 
   const getDiffPersent = () => {
-    const persent = diff ? parseFloat(diff).toFixed(4) : '0.000'
+    const persent = diff ? parseFloat(diff).toFixed(4) : '0.0000'
     if (persent > 0) return <span className='text-success'>&#8593; {persent}%</span>
     else if (persent < 0) return <span className='text-danger'>&#8595; {persent}%</span>
     else return <span className='text-muted'>{persent}%</span>
