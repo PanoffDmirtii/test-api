@@ -7,7 +7,7 @@ import Main from '../components/Main';
 
 const AppRouter = (props) => {
   return (
-    <Router>
+    <Router basename='/test-api'>
       <Header />
       <Main>
         <Switch>
